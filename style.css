@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+height: 100vh;
+/* background-image: url(./flower_homepage_.avif); */
+}
+
+nav{
+    width: 100%;
+    height: 80px; 
+border:1px solid black ; 
+    display: flex;
+   align-items: center;
+   
+}
+.small{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius:10px ;
+    justify-content: center;
+    align-items: center;
+    margin: left 100px; 
+}
+
+.small input{
+border: none;
+
+}
+nav button{
+    height: 48px;
+    width: 220px;
+    border: 1px solid gray;
+    margin: 55px;
+    border-radius: 10px;
+    background-color:bisque;
+}
+.mini-nav{
+    width: 100%;
+    height: 40px;  
+    display: flex;
+     color:black;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.mini-nav a
+{
+text-decoration: none;
+color:gray;
+}
+h1{
+margin-top-: 50px;
+
+}
+
+.shayan{
+    width: 100%;
+    height: 400px;
+}
+.icon-box{
+    height: 100%;
+    width: 350px;
+    border: none;
+    margin-left: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-box i {
+font: size 80px; 
+
+}
+.imegesh{
+    height: 40vh;
+    /* background-color: #a1e3af; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box-list{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #ac2020; */
+    margin-top:20px ;
+}
+.imegesh img{
+    height: 140px;
+
+}
+hr{
+    width: 100vW;
+    border:5px solid grey ;
+}
+.botel{
+    width: 100%;
+    height: 80vh;
+    /*  border:12px solid gray ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.botel-1 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 50px ;
+justify-content: space-evenly;
+}
+.botel img{
+   
+    height: 200px;
+    width: 250px;
+}
+.texthead h1, h3{
+margin-top: 20px;
+margin-left:20px ;
+}
+.botel img:hover{
+    transform: scale(1.1) ; 
+
+}
+.new{
+    height: 350px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.new img{
+    width: 100%;
+    height: 250px;
+    margin-left: 250px;
+}
+.abc{
+    background-color: coral;
+}
+
+.couple{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 10px  ;
+    margin-left:450px ;
+justify-content: space-evenly;
+
+}
+ .cpl img{
+    height: 250px;
+    width: 250px;
+justify-content: space-evenly;
+border-radius:30px ;
+ }   
+.ROSE{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 10px  ;
+    margin-left:450px ;
+justify-content: space-evenly;
+}
+.GULAB img{
+    height: 250px;
+    width: 250px;
+justify-content: space-evenly;
+border-radius:3px ;
+}
+.box-list-2{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #ac2020; */
+    margin-top:20px ;
+}
+.box-list-2 img:hover{
+    transform: scale(105%);
+    transition:all ease-in-out 0.6;
+    overflow: hidden;
+}
